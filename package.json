@@ -1,0 +1,33 @@
+{
+  "name": "@asleepx/homepage-cat",
+  "version": "0.1.0",
+  "description": "A tiny draggable SVG cat that walks across your homepage.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./style.css": "./src/homepage-cat.css",
+    "./photo-scenes": "./src/cat-photo-world.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "python3 -m http.server 4173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsleepX/homepage-cat.git"
+  },
+  "keywords": [
+    "cat",
+    "website",
+    "pet",
+    "svg",
+    "vanilla-javascript"
+  ]
+}

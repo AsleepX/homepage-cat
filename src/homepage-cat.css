@@ -1,0 +1,28 @@
+/* The cat sits on the existing divider without adding layout height. */
+.cat-track { position: relative; height: 0; }
+/* The docked and roaming cat share the same paw-to-origin distance. */
+.cat { --cat-ground-offset: 39px; position: absolute; left: 0; top: calc(0px - var(--cat-ground-offset)); width: 56px; height: 44px; padding: 0; border: 0; background: none; color: #000; cursor: pointer; transform: translateX(var(--cat-x, 0px)); z-index: 1; -webkit-tap-highlight-color: transparent; }
+.cat[hidden] { display: none; }
+.cat svg { display: block; width: 56px; height: 44px; overflow: visible; transform: scaleX(var(--cat-direction, 1)); }
+.cat:focus-visible { outline: 1px dashed #606570; outline-offset: 3px; border-radius: 8px; }
+/* Grounded feet and continuously reshaped body/tail share a single rig. */
+.cat-legs { visibility: hidden; }
+.cat-leg-back { transform-origin: 20px 26px; }
+.cat-leg-front { transform-origin: 43px 25px; }
+/* Click and return journeys render the same 620ms gait in cat-pose.js. */
+@media (prefers-reduced-motion: reduce) {
+  .cat.is-running .cat-leg { animation: none; }
+}
+
+.cat { touch-action: none; user-select: none; -webkit-user-select: none; }
+.cat.is-roaming { position: absolute; left: 0; top: 0; bottom: auto; z-index: 20; }
+.cat.is-held { cursor: grabbing; }
+.cat.is-jumping .cat-leg { animation: none; }
+.cat-rig { transform-box: view-box; }
+
+.cat-dragging, .cat-dragging * { user-select: none !important; -webkit-user-select: none !important; }
+
+.cat.is-grounded .cat-leg { animation: none; }
+
+
+.cat { box-sizing: border-box; min-width: 0; min-height: 0; margin: 0; }
