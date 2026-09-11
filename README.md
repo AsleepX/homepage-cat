@@ -2,9 +2,9 @@
 
 A small black SVG cat that turns your homepage into a playground. Extracted from [AsleepX's homepage](https://asleepx.github.io/).
 
-[中文文档](README.zh-CN.md) · [Demo source](demo/index.html) · [Feature video](media/homepage-cat-demo.mp4)
+[中文文档](README.zh-CN.md) · [Demo source](demo/index.html) · [Download video](media/homepage-cat-demo.mp4)
 
-![Homepage Cat preview](media/preview.png)
+https://github.com/user-attachments/assets/8dd5c2d1-02ca-441d-9909-79d7047ffc55
 
 ## Features
 
@@ -82,7 +82,7 @@ python3 -m http.server 4173
 # open http://localhost:4173/demo/
 ```
 
-Tests cover landing, route planning, contour contact, photo coordinates and fusion timing. `scripts/browser-check.cjs` tests the rendered integration and lifecycle; see its header for setup. The video is a real browser recording with Chinese on-screen captions (no audio).
+Tests cover landing, route planning, contour contact, photo coordinates and fusion timing. `scripts/browser-check.cjs` tests the rendered integration and lifecycle; see its header for setup. The video is a real browser recording with English on-screen captions (no audio).
 
 ## License
 

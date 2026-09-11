@@ -2,7 +2,9 @@
 
 从 [AsleepX 的个人主页](https://asleepx.github.io/) 独立出来的 SVG 小猫组件。零运行时依赖，MIT 开源，适合个人主页和静态网站。
 
-[交互示例源码](demo/index.html) · [功能介绍视频](media/homepage-cat-demo.mp4) · [完整 API / English](README.md)
+[交互示例源码](demo/index.html) · [下载演示视频](media/homepage-cat-demo.mp4) · [完整 API / English](README.md)
+
+https://github.com/user-attachments/assets/8dd5c2d1-02ca-441d-9909-79d7047ffc55
 
 ## 能做什么
 
@@ -59,4 +61,4 @@ npm test
 python3 -m http.server 4173
 ```
 
-访问 `http://localhost:4173/demo/`。视频是真实浏览器操作录制，附中文字幕、无音轨。项目使用 MIT 许可证，转载和修改请保留 LICENSE。
+访问 `http://localhost:4173/demo/`。视频是真实浏览器操作录制，附英文字幕、无音轨。项目使用 MIT 许可证，转载和修改请保留 LICENSE。
